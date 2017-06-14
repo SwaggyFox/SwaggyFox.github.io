@@ -185,19 +185,15 @@
     
 </div> <!-- end of wrapper -->
 </body>
+	
+<script src="locate.js"></script>
+</html>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5cBL1l7Hy2OR1vN0F7qpujAdAwkUozbs"></script>
 	<script type="text/javascript">
 	var map = new BMap.Map("map");
 	var point = new BMap.Point(116.331398,39.897445);
 	map.centerAndZoom(point,12);
 
-// 	function myFun(result){
-// 		var cityName = result.name;
-// 		map.setCenter(cityName);
-// 		alert("当前定位城市:"+cityName);
-// 	}
-// 	var myCity = new BMap.LocalCity();
-// 	myCity.get(myFun);
 	var geolocation = new BMap.Geolocation();
 	geolocation.getCurrentPosition(function(r){
 		if(this.getStatus() == BMAP_STATUS_SUCCESS){
@@ -212,5 +208,3 @@
 	},{enableHighAccuracy: true})
 
 	</script>
-<script src="locate.js"></script>
-</html>
