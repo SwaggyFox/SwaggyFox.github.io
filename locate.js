@@ -20,3 +20,5 @@ function BDmap(){
     },{enableHighAccuracy: true})
 }
 
+
+
