@@ -431,7 +431,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 }
 #map{
 	border: blue 2px solid;
-	width: 90%;
+	width: 150px;
 	height: 200px;
 	text-align: left;
 }
