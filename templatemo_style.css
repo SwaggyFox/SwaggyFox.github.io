@@ -429,7 +429,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_footer a {
 	color: #fff;
 }
-#map{
+#map,#mapp{
 	border: blue 2px solid;
 	width: 90%;
 	height: 200px;
