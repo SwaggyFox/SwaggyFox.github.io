@@ -7,7 +7,6 @@
 <meta name="description" content="Curriculum Vitae Theme - CSS CV" />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5cBL1l7Hy2OR1vN0F7qpujAdAwkUozbs"></script>
-	<script src="scripts/locate.js"></script>
 	
 </head>
 <body>
@@ -186,7 +185,8 @@
     
 </div> <!-- end of wrapper -->
 </body>
-	<script type="text/javascript">
+	<script src="scripts/locate.js"></script>
+<script type="text/javascript">
 	var map = new BMap.Map("map");
     var point = new BMap.Point(116.331398,39.897445);
     map.centerAndZoom(point,18);
@@ -203,7 +203,7 @@
             alert('failed'+this.getStatus());
         }        
     },{enableHighAccuracy: true})
-</script>
+</script>	
 </html>
 	
 	
