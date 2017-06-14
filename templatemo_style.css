@@ -171,7 +171,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	text-indent: -10000px; 
 }
 
-#twitter {
+#weather {
 	clear: both;
 	width: 800px;
 	height: 20px;
@@ -429,9 +429,9 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_footer a {
 	color: #fff;
 }
-#map,#location{
-	border: blue 1px solid;
-	width: 49%;
+#map{
+	border: blue 2px solid;
+	width: 90%;
 	height: 200px;
-	
+	text-align: left;
 }
