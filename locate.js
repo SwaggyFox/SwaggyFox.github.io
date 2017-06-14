@@ -1,6 +1,6 @@
 // JavaScript Document
 // 地图API
-var map = new BMap.Map("map");
+var map = new BMap.Map("location");
     var point = new BMap.Point(116.331398,39.897445);
     map.centerAndZoom(point,18);
     var geolocation = new BMap.Geolocation();
