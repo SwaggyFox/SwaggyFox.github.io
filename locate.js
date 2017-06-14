@@ -1,9 +1,6 @@
 // JavaScript Document
 // 地图API
-window.onload=BDmap();
-
-function BDmap(){
-	var map = new BMap.Map("map");
+var map = new BMap.Map("map");
     var point = new BMap.Point(116.331398,39.897445);
     map.centerAndZoom(point,18);
     var geolocation = new BMap.Geolocation();
@@ -18,4 +15,3 @@ function BDmap(){
             alert('failed'+this.getStatus());
         }        
     },{enableHighAccuracy: true})
-}
