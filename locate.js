@@ -1,6 +1,6 @@
 // JavaScript Document
 // 地图API
-window.onload=function BDmap();
+window.onload=BDmap();
 
 function BDmap(){
 	var map = new BMap.Map("map");
