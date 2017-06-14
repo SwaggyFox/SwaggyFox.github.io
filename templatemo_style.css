@@ -430,8 +430,8 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color: #fff;
 }
 #map{
-	border: blue 2px solid;
-	width: 200px;
+	border: blue 1px solid;
+	width: 50%;
 	height: 200px;
-	//text-align: left;
+	text-align: center;
 }
